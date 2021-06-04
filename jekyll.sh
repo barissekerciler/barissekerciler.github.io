@@ -1,4 +1,4 @@
-#!/bin/bash/env sh
+#!/bin/bash/env sh 
 
 # only let the script proceed when started not by a pull request (PR)
 
