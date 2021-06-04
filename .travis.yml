@@ -3,10 +3,9 @@ rvm:
   - '2.7'
 
 before_script:
-  - cd $TRAVIS_BUILD_DIR
-  - chmod +x ./script/cibuild
+  - chmod +x jekyll.sh
 
-script: ./script/cibuild
+script: ./jekyll.sh
 
 branches:
   only:
