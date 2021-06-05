@@ -13,5 +13,6 @@ set -e
 
 # build site with jekyll, by default to `_site' folder
 cd pages
+bundle install
 bundle exec htmlproof ./_site --disable-external --check-html --verbose
 bundle exec jekyll build
