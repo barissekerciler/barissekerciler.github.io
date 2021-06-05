@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'My humble blog',
+  tagline: 'Penguin!',
   url: 'https://barissekerciler.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,9 +11,9 @@ module.exports = {
   projectName: 'barissekerciler.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'My humble blog',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'some default logo from doocusaurus',
         src: 'img/logo.svg',
       },
     },
@@ -29,10 +29,7 @@ module.exports = {
         blog: {
           path: "./blog",
           routeBasePath: '/',
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
