@@ -4,6 +4,7 @@ rvm:
 
 before_script:
   - chmod +x jekyll.sh
+  - bundle install
 
 script: ./jekyll.sh
 
