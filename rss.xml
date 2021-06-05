@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>My Site Blog</title>
+        <title>My humble blog Blog</title>
         <link>https://barissekerciler.github.io/</link>
-        <description>My Site Blog</description>
+        <description>My humble blog Blog</description>
         <lastBuildDate>Sun, 06 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
