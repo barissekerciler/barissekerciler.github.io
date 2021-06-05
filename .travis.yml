@@ -1,21 +1,19 @@
-language: ruby
+language: node_js
 rvm:
-  - '2.7'
-
-before_script:
-  - chmod +x jekyll.sh
-
-script: ./jekyll.sh
+  - '14'
 
 branches:
   only:
     - master
 
-addons:
-  apt:
-    packages:
-      - libcurl4-openssl-dev
+cache:
+  yarn: true
 
-cache: bundler
+script:
+  - git config --global user.name "${GH_USERNAME}"
+  - git config --global user.email "${GH_EMAIL}"
+  - yarn && GIT_USER="${GH_USERNAME}" yarn deploy
+
+
 notifications:
   email: false
