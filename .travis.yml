@@ -12,7 +12,7 @@ cache:
 script:
   - git config --global user.name "${GH_USERNAME}"
   - git config --global user.email "${GH_EMAIL}"
-  - yarn && GIT_USER="${GH_USERNAME}" yarn deploy
+  - cd pages && yarn && GIT_USER="${GH_USERNAME}" yarn deploy
 
 
 notifications:
